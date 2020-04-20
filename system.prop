@@ -9,6 +9,9 @@ persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.vendor.btstack.enable.splita2dp=false
 vendor.bluetooth.soc=cherokee
 
+# Charger
+ro.charger.enable_suspend=true
+
 # CNE/DPM
 persist.vendor.cne.feature=1
 persist.vendor.dpm.feature=1
