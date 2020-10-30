@@ -1,2 +1,2 @@
 allow vndservicemanager mnt_vendor_file:dir getattr;
-allow vndservicemanager persist_audio_file:dir getattr;
+allow vndservicemanager vendor_persist_audio_file:dir getattr;
