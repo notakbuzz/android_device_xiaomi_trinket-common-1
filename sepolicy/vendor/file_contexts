@@ -24,3 +24,9 @@
 
 # Audio socket
 /dev/socket/audio_hw_socket                                                          u:object_r:audio_socket:s0
+
+# DPMD
+/system/product/bin/dpmd                                                             u:object_r:system_file:s0
+
+# Neuralnetworks
+/(vendor|system/vendor)/bin/hw/android\.hardware\.neuralnetworks@1\.2-service-qti    u:object_r:vendor_file:s0
