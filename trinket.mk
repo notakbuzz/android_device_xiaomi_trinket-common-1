@@ -191,6 +191,7 @@ PRODUCT_PACKAGES += \
     libOmxG711Enc \
     libplatformconfig \
     libstagefrighthw \
+    libavservices_minijail_32 \
     libavservices_minijail_vendor
 
 PRODUCT_COPY_FILES += \
@@ -409,6 +410,7 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
+    libdisplayconfig.qti \
     libdisplayconfig.vendor \
     libnl \
     libqdMetaData \
